@@ -4,16 +4,16 @@
 	"parameters": {
 		"factoryName": {
 			"type": "string",
-			"metadata": "Data Factory name",
+			"metadata": "数据工厂名称",
 			"defaultValue": "adf16"
 		},
 		"AzureBlobStorage1_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+			"metadata": "“AzureBlobStorage1”的“connectionString”的安全字符串"
 		},
 		"linkedService1_password": {
 			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'linkedService1'"
+			"metadata": "“linkedService1”的“password”的安全字符串"
 		},
 		"linkedService1_properties_typeProperties_userName": {
 			"type": "string",
@@ -21,11 +21,11 @@
 		},
 		"containerUri": {
 			"type": "string",
-			"metadata": "URI to storage account containing linked ARM templates"
+			"metadata": "包含链接 ARM 模板的存储帐户的 URI"
 		},
 		"containerSasToken": {
 			"type": "string",
-			"metadata": "Sas token to storage account containing linked ARM templates"
+			"metadata": "包含链接 ARM 模板的存储帐户的 SAS 令牌"
 		}
 	},
 	"variables": {
