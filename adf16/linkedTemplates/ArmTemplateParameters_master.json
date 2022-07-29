@@ -8,8 +8,14 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"linkedService1_password": {
 			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://storage0601.dfs.core.chinacloudapi.cn/"
 		},
 		"linkedService1_properties_typeProperties_userName": {
 			"value": "admin"
